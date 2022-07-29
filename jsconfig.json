@@ -1,0 +1,8 @@
+// we cypress and test folder in configuration file so now we dont need to provide reference in every file
+
+{
+    "include": [
+        "./node_modules/cypress",
+        "Cypress/**/*.js"
+    ]
+}
